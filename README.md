@@ -11,7 +11,7 @@ Built for security researchers, this tool provides a visually tactical, dark-the
 - **Cognitive SecOps Reporting**: Pushes extraction outputs through a secure, localized connection to multiple AI models (**Gemini 2.5 Flash**, **OpenAI GPT-4o**, or **Anthropic Claude 3.5 Sonnet**), yielding beautifully formatted Markdown reports identifying credentials, legacy vulnerabilities, and potential dynamic emulation targets.
 - **No-Distraction Interface**: Built with raw CSS flex-box modules. No messy animations. A pure HUD crafted specifically for maximum data legibility.
 
-## Quick Start (Docker)
+## Quick Start (Docker) has known issues
 
 The fastest and safest way to run AEfirmadive is via Docker, which guarantees that `binwalk` and `strings` dependencies are pre-configured in their isolated sandbox.
 
@@ -31,7 +31,7 @@ docker build -t aefirmadive .
 docker run -p 3000:3000 aefirmadive
 ```
 
-## Manual Install (Bare Metal)
+## Manual Install (Bare Metal) RECOMMENDED
 
 If you prefer to run the Next.js application natively on your host machine, you must ensure the backend OS-level dependencies are installed first.
 

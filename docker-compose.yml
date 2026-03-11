@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  aefirmadive:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: aefirmadive:latest
+    container_name: aefirmadive
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    # Optional: Map a local directory to host firmware files if needed
+    # volumes:
+    #   - ./firmware:/app/firmware 

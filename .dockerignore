@@ -1,0 +1,12 @@
+node_modules
+.npm
+.next
+.env*
+!.env.example
+.vercel
+*.pem
+.DS_Store
+coverage/
+dist/
+build/
+*.log

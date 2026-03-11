@@ -1,4 +1,4 @@
-FROM node:18-bullseye-slim
+FROM node:22-bullseye-slim
 
 # Install necessary dependencies, including binwalk and strings
 RUN apt-get update && apt-get install -y \

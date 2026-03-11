@@ -21,7 +21,7 @@ git clone https://github.com/hillbillyh4cker/aefirmadive.git
 cd aefirmadive
 
 # Build and start via Docker Compose
-docker-compose up -d --build
+docker compose up -d --build
 ```
 *Access the console at http://localhost:3000*
 

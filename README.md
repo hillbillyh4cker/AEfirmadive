@@ -46,9 +46,10 @@ sudo apt-get install -y binwalk binutils
 npm install
 ```
 
-### 3. Run Dev Server
+### 3. Run Production Server
 ```bash
-npm run dev
+npm run build
+npm start
 ```
 
 ## Configuration (AI Provider Keys)

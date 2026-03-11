@@ -17,7 +17,7 @@ The fastest and safest way to run AEfirmadive is via Docker, which guarantees th
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/aefirmadive.git
+git clone https://github.com/hillbillyh4cker/aefirmadive.git
 cd aefirmadive
 
 # Build and start via Docker Compose

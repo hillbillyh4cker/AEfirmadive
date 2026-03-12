@@ -4,7 +4,7 @@
 
 Built for security researchers, this tool provides a visually tactical, dark-themed operational dashboard to upload firmware binaries, natively extract parameters via `strings` and `binwalk`, and correlate the findings instantaneously mapping vulnerabilities and boot structures using Google's Generative AI.
 
-![AEfirmadive GUI](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000)
+![AEfirmadive GUI](https://github.com/hillbillyh4cker/AEfirmadive/blob/main/image.png)
 
 ## Features
 - **Native Static Extraction**: Hooks directly into your system's `binwalk` and `strings` utilities to carve firmware payloads and squashfs signatures seamlessly in the background.
